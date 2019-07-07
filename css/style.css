@@ -4052,12 +4052,12 @@ h6 {
 }
 
 .footer-bottom .footer-text i {
-  color: #6247ea;
+  color: #67af3f;
   opacity: 1;
 }
 
 .footer-bottom .footer-text a {
-  color: #6247ea;
+  color: #67af3f;
   opacity: 1;
 }
 
@@ -4085,9 +4085,9 @@ h6 {
 
 .footer-bottom .footer-social a:hover {
   color: #fff;
-  background-image: -moz-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
+  background-image: -moz-linear-gradient(0deg, #67af3f 0%, #71d33b 100%);
+  background-image: -webkit-linear-gradient(0deg, #67af3f 0%, #71d33b 100%);
+  background-image: -ms-linear-gradient(0deg, #67af3f 0%, #71d33b 100%);
 }
 
 .source_icon_image {
