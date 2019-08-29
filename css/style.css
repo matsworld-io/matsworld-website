@@ -44,6 +44,11 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,300i,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+@font-face {
+    font-family: poppinsHeavy;
+    src: url("../fonts/Poppins-Bold.ttf");
+}
+
 .list {
   list-style: none;
   margin: 0px;
