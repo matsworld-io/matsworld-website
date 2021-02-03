@@ -4111,6 +4111,16 @@ textarea {
   border: 0px solid;
   border-radius: 8px;
 }
+
+.screenshotImage {
+  width: 55%;
+  text-align: center;
+}
+@media (max-width:575px) {
+  .screenshotImage {
+    width: 80%;
+  }
+}
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */

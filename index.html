@@ -39,7 +39,7 @@
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active"><a class="nav-link" href="index.html">Úvod</a></li>
 								<li class="nav-item"><a class="nav-link" href="products.html">Produkty</a></li>
-								<li class="nav-item"><a class="nav-link" href="developer.html">Vývojáři</a>
+								<li class="nav-item"><a class="nav-link" href="research.html">Výzkum</a>
 								<li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
 							</ul>
 						</div>
@@ -50,13 +50,15 @@
         <!--================Header Menu Area =================-->
 
         <!--================Home Banner Area =================-->
-        <section class="home_banner_area" id="home">
-            <div class="banner_inner" style="background: rgb(103, 175, 63); background: linear-gradient(0deg, rgba(103, 175, 63,1) 0%, rgba(113, 211, 59,1) 100%);">
+        <section class="home_banner_area" id="home" style="position: relative;">
+          <div id="particles-js" style="position: absolute; top: 0; left: 0; z-index: -100; width:100%; height: 100%; background: linear-gradient(0deg, rgba(103, 175, 63,1) 0%, rgba(113, 211, 59,1) 100%);"></div>
+          <div class="banner_inner" style="position: relative; z-index: 100;">
+
 				<div class="container">
 					<div class="row banner_content" style="padding-top: 140px; padding-bottom: 40px;">
 						<div class="col-lg-9">
-							<h2>S námi toho <br />zvládnete víc</h2>
-							<p>V matsworld. vyvíjíme produkty, které Vám ulehčují Váš každodenní život. Vedle dozvídání se víc, se nyní věnujeme i zvládání víc. V perfektní symbióze všech aplikací, které nabízíme, se Vám to podaří.</p>
+							<h2>Strojové učení <br />ve středu dění</h2>
+							<p>V matsworld. vyvíjíme efektivní produkty s neuvěřitelným uživatelským zážitkem. Je tomu díky propojení komplexních architektur strojového učení, přívětivého a promyšleného designu a smyslu pro detail.</p>
               <div class="app_btn_area">
                 <a href="https://itunes.apple.com/us/app/newskit/id1450728417">
 
@@ -66,9 +68,13 @@
 
 						</div>
 					</div>
+
 				</div>
             </div>
         </section>
+
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
         <!--================End Home Banner Area =================-->
 
         <section class="interior_area interior_two">
@@ -76,13 +82,13 @@
         		<div class="interior_inner row">
         			<div class="col-lg-5 offset-lg-1">
         				<div class="interior_text">
-        					<h4><img src="img/icon/nk.png" width="50px"> newskit.</h4>
+        					<h4 style="font-family: poppinsHeavy !important; font-weight: 100;"><img src="img/icon/nk.png" width="50px"> newskit.</h4>
         					<p>Ty nejlepší zprávy z důvěryhodných českých zdrojů na jednom místě, roztříděny podle kanálu či kategorie. Aplikace navíc vybírá takové zprávy, které se budou líbit spíše Vám. Také nabízí statistiky, chytrý přehled Vaší interakce se zprávami.</p>
-                  <a class="main_btn" href="https://newskit.matsworld.io">Více informací</a>
+                  <a class="main_btn" href="prod_newskit.html">Zjistit víc</a>
                 </div>
         			</div>
-        			<div class="col-lg-6">
-        				<img class="img-fluid" src="img/feature/mock-4.png" alt="">
+        			<div class="col-lg-6" style="text-align: center;">
+        				<img class="img-fluid screenshotImage" src="img/feature/newskit/0.png" alt="">
         			</div>
         		</div>
         	</div>
@@ -94,14 +100,14 @@
         <section class="interior_area interior_two">
         	<div class="container">
         		<div class="interior_inner row">
-        			<div class="col-lg-6">
-        				<img class="img-fluid" src="img/feature/sn-1.png" alt="">
+        			<div class="col-lg-6" style="text-align: center;">
+        				<img class="img-fluid screenshotImage" src="img/feature/smartnotes/0.png" alt="">
         			</div>
         			<div class="col-lg-5 offset-lg-1">
         				<div class="interior_text">
-        					<h4><img src="img/icon/sn.png" width="50px"> smartnotes.</h4>
+        					<h4 style="font-family: poppinsHeavy !important; font-weight: 100;"><img src="img/icon/sn.png" width="50px"> smartnotes.</h4>
         					<p>Smartnotes. mění způsob, kterým si děláte známky. Pomocí umělé inteligence a strojového učení Vaše poznámky chytře organizuje a třídí. A navíc na nich můžete spolupracovat.</p>
-        					<a class="main_btn" href="https://smartnotes.matsworld.io">Více informací</a>
+        					<a class="main_btn" href="prod_smartnotes.html">Zjistit víc</a>
         				</div>
         			</div>
         		</div>
@@ -116,17 +122,38 @@
         		<div class="interior_inner row">
         			<div class="col-lg-5 offset-lg-1">
         				<div class="interior_text">
-        					<h4><img src="img/icon/wtd.png" width="50px" style="border-radius: 8px; border: 1px solid; border-color: #B8B8B8;"> What's the doodle?</h4>
-        					<p>S pomocí strojového učení jsme vyvinuli hru, která umí rozpoznávat Vaše kresby předmětů. Kreslete si jen tak, nebo si zahrajte na body. Hra Vám řekne, co nakreslit - pokud v časovém limitu model Vaši malůvku rozpozná, pokračujete dál!</p>
-                  <a class="main_btn" href="https://apps.apple.com/cz/app/whats-the-doodle/id1464586440">Stáhnout</a>
+        					<h4 style="font-family: poppinsHeavy !important; font-weight: 100;"><img src="img/icon/black.cube.box.fill.png" width="50px"> Integrovaná smart platforma</h4>
+        					<p>Naše chytrá platforma poháněná strojovým učením umí analyzovat zpravodajské články v reálném čase, procesovat naskenované dokumenty, či zpracovávat přirozený jazyk. Jednoduchá integrace jednotlivých komponentů a individuální přístup pak pomohou přímo Vašim potřebám.</p>
+                  <a class="main_btn" href="" style="background: gray; pointer-events: none; cursor: default; box-shadow: 0px 10px 30px 0px gray; -webkit-box-shadow: 0px 10px 30px 0px gray;">Již brzy</a>
                 </div>
         			</div>
-        			<div class="col-lg-6">
-        				<img class="img-fluid" src="img/feature/wtd-1.png" alt="">
+        			<div class="col-lg-6" style="text-align: center;">
+        				<img class="img-fluid" src="img/feature/smartcanvas/0.png" alt="">
         			</div>
         		</div>
         	</div>
         </section>
+
+        <hr width="80%">
+
+        <!--================Interior Area =================-->
+        <section class="interior_area interior_two">
+        	<div class="container">
+        		<div class="interior_inner row">
+        			<div class="col-lg-6" style="text-align: center;">
+        				<img class="img-fluid" src="img/feature/mockup_research.png" alt="">
+        			</div>
+        			<div class="col-lg-5 offset-lg-1">
+        				<div class="interior_text">
+        					<h4 style="font-family: poppinsHeavy !important; font-weight: 100;"><img src="img/icon/black.magnifyingglass.png" width="50px"> Aplikovaný výzkum strojového učení</h4>
+        					<p>Smartnotes. mění způsob, kterým si děláte známky. Pomocí umělé inteligence a strojového učení Vaše poznámky chytře organizuje a třídí. A navíc na nich můžete spolupracovat.</p>
+        					<a class="main_btn" href="research.html">Zjistit víc</a>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Interior Area =================-->
 
         <!--================Download App Area =================-->
         <section class="download_app_area p_120" id="download">
@@ -175,7 +202,7 @@
                         <div class="single-footer-widget tp_widgets">
                            <h6 class="footer_title">ODKAZY</h6>
                             <ul class="list">
-                              <li><a href="enterprise.html">Pro firmy</a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -186,8 +213,8 @@ Copyright &copy; <script>document.write(new Date().getFullYear());</script> mats
 </p>
                     <div class="col-lg-4 col-md-4 footer-social">
                         <a href="https://www.facebook.com/matsworld.io/"><i class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/newskit_io"><i class="fa fa-twitter"></i></a>
-                        <a href="https://github.com/matsworld"><i class="fa fa-github"></i></a>
+                        <a href="https://twitter.com/matsworld_io"><i class="fa fa-twitter"></i></a>
+                        <a href="https://github.com/matsworld-io"><i class="fa fa-github"></i></a>
                     </div>
                 </div>
             </div>
